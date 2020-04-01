@@ -1,0 +1,73 @@
+
+html {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	background-color: #FDDE7E;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ba-container{
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width: 1020px;
+	margin: 250px 0;
+}
+
+h1 {
+	color:#02995B
+}
+
+.ba-bronze-cup,
+.ba-gold-cup,
+.ba-silver-cup {
+	flex-basis: 310px;
+	margin: 15px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 50px;
+	border-radius: 4px;
+	
+}
+
+.ba-gold-cup {
+	padding: 40px 50px;
+}
+
+.ba-h1-cup-style {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 50px;
+	margin: 20px 0;
+}
+
+.ba-cup-text-style {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding: 0 40px;
+	text-align: center;
+}
+
+.ba-h2-cup-style {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
